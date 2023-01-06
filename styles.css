@@ -60,3 +60,26 @@ h1 {
     display: block;
     margin-bottom: 40px;
 }
+.section-two > div {
+    background-color: var(--vdrk-mag);
+    padding: 30px;
+    margin-bottom: 15px;
+    color: var(--white);
+    border-radius: 10px;
+}
+.name-card {
+    display: flex;
+    align-items: center;
+}
+.name-card img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 20px;
+}
+h2 {
+    font-weight: 700;
+}
+h3 {
+    color: var(--soft-pink);
+    font-weight: 700;
+}
