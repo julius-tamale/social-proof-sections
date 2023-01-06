@@ -62,14 +62,17 @@ h1 {
 }
 .section-two > div {
     background-color: var(--vdrk-mag);
-    padding: 30px;
-    margin-bottom: 15px;
+    padding: 50px 30px 50px 50px;
+    margin: 0 auto 15px;
     color: var(--white);
     border-radius: 10px;
+    width: 90%;
+    line-height: 1.5;
 }
 .name-card {
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 .name-card img {
     border-radius: 50%;
@@ -82,4 +85,25 @@ h2 {
 h3 {
     color: var(--soft-pink);
     font-weight: 700;
+}
+.section-two {
+    width: 100vw;
+}
+.section-two div > p {
+    padding-right: 30px;
+}
+.chal-attr {
+    display: none;
+}
+.coder-attr {
+    text-align: center;
+    display: block;
+    margin-bottom: 75px;
+}
+footer a {
+    text-decoration: none;
+    color: brown;
+}
+footer a:hover {
+    text-decoration: underline wavy darkblue;
 }
