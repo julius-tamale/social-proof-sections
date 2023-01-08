@@ -21,7 +21,7 @@ body {
     min-height: 100vh;
     font-family: var(--ff);
     font-size: 15px;
-    line-height: 1;
+    line-height: 1.5;
     background-color: var(--lgry-mag)
 }
 main {
@@ -67,7 +67,6 @@ h1 {
     color: var(--white);
     border-radius: 10px;
     width: 90%;
-    line-height: 1.5;
 }
 .name-card {
     display: flex;
@@ -81,10 +80,11 @@ h1 {
 }
 h2 {
     font-weight: 700;
+    line-height: 1;
 }
 h3 {
     color: var(--soft-pink);
-    font-weight: 700;
+    font-weight: 500;
 }
 .section-two {
     width: 100vw;
@@ -106,4 +106,40 @@ footer a {
 }
 footer a:hover {
     text-decoration: underline wavy darkblue;
+}
+@media screen and (min-width: 750px) and (max-width: 884px) {
+    .section-one {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+@media screen and (min-width: 900px) {
+    body {
+        overflow: hidden;
+    }
+    .section-one {
+        display: flex;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    .sect-one-d1 {
+        max-width: 50%;
+    }
+    .section-two {
+        max-width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .section-two > div {
+        padding: 25px 20px;
+    }
+    .section-two div > p {
+        padding-right: 0;
+    }
+    .name-card {
+        margin-bottom: 20px;
+    }
 }
