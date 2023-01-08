@@ -187,4 +187,10 @@ footer a:hover {
         position: relative;
         top: 30px;
     }
+    .chal-attr, .coder-attr {
+        display: inline-block;
+    }
+    footer p {
+        margin-top: 20px;
+    }
 }
