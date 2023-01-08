@@ -119,10 +119,21 @@ footer a:hover {
     body {
         overflow: hidden;
     }
+    h1 {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    .sect-one-d1 p {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
     .section-one {
         display: flex;
-        justify-content: space-around;
-        max-width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+        max-width: 80%;
     }
     .sect-one-d1 {
         max-width: 50%;
