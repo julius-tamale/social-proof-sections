@@ -115,23 +115,24 @@ footer a:hover {
         align-items: center;
     }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
     body {
         overflow: hidden;
     }
     h1 {
         text-align: left;
-        margin: 0;
-        padding: 0;
+        margin: 0 0 50px;
+        line-height: 1;
+        padding: 0 150px 0 0;
     }
     .sect-one-d1 p {
         text-align: left;
         margin: 0;
-        padding: 0;
+        padding: 0 120px 0 0;
     }
     .section-one {
         display: flex;
-        margin: 0 auto;
+        margin: 0 auto 50px;
         justify-content: space-between;
         max-width: 80%;
     }
@@ -139,19 +140,16 @@ footer a:hover {
         max-width: 50%;
     }
     .section-two {
-        max-width: 80%;
+        max-width: 85%;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
     .sect-one-d2 {
-        position: relative;
-        top: 0;
-        left: 0;
+        align-self: center;
     }
     .sect-one-d2 > div {
         flex-direction: row;
-        padding-right: 20px;
         gap: 0;
     }
     .sect-one-d2 span {
@@ -159,14 +157,14 @@ footer a:hover {
         vertical-align: middle;
     }
     .d2-d1 {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         position: relative;
-        left: -60px;
+        left: -80px;
     }
     .d2-d2 {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         position: relative;
-        left: -30px;
+        left: -40px;
     }
     .section-two > div {
         padding: 25px 20px;
@@ -176,5 +174,13 @@ footer a:hover {
     }
     .name-card {
         margin-bottom: 20px;
+    }
+    .sect-two-d2 {
+        position: relative;
+        top: 15px;
+    }
+    .sect-two-d3 {
+        position: relative;
+        top: 30px;
     }
 }
