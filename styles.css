@@ -144,6 +144,30 @@ footer a:hover {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+    .sect-one-d2 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .sect-one-d2 > div {
+        flex-direction: row;
+        padding-right: 20px;
+        gap: 0;
+    }
+    .sect-one-d2 span {
+        margin: 0 0 0 25px;
+        vertical-align: middle;
+    }
+    .d2-d1 {
+        margin-bottom: 15px;
+        position: relative;
+        left: -60px;
+    }
+    .d2-d2 {
+        margin-bottom: 15px;
+        position: relative;
+        left: -30px;
+    }
     .section-two > div {
         padding: 25px 20px;
     }
