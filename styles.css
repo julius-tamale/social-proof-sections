@@ -118,6 +118,10 @@ footer a:hover {
 @media screen and (min-width: 1200px) {
     body {
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     h1 {
         text-align: left;
